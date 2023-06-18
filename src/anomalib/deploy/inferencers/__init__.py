@@ -6,5 +6,7 @@
 from .base_inferencer import Inferencer
 from .openvino_inferencer import OpenVINOInferencer
 from .torch_inferencer import TorchInferencer
+from .onnx_inferencer import ONNXInferencer
+from .tflite_inferencer import TFLiteInferencer
 
-__all__ = ["Inferencer", "OpenVINOInferencer", "TorchInferencer"]
+__all__ = ["Inferencer", "OpenVINOInferencer", "TorchInferencer", "ONNXInferencer", "TFLiteInferencer"]
